@@ -88,9 +88,9 @@ namespace GithubActionsLab
 
         private static double CalculatePower(string x, string y)
         {
-            double baseNumber = double.Parse(x);
+            double baseNumberr = double.Parse(x);
             double exponent = double.Parse(y);
-            return Math.Pow(baseNumber, exponent);
+            return Math.Pow(baseNumberr, exponent);
         }
     }
 
